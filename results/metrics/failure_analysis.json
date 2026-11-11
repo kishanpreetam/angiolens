@@ -1,0 +1,112 @@
+{
+ "primary_model": "unet_scratch",
+ "primary_selection": "full-data U-Net with the higher validation Dice",
+ "dice_quartiles": [
+  0.6164975,
+  0.698399,
+  0.78869975
+ ],
+ "n_dice_below_0.5": 29,
+ "error_pixels": {
+  "fp": 868420,
+  "fn": 857948,
+  "fp_near": 116160,
+  "fn_near": 204480
+ },
+ "share_fp_within_2px_of_gt": 0.13376016213352987,
+ "share_fn_within_2px_of_pred": 0.23833612293518955,
+ "spearman_dice_vs_image_properties": {
+  "mean_intensity": {
+   "spearman_rho": -0.08277203080034222,
+   "p_value": 0.1526815187445882
+  },
+  "intensity_sd": {
+   "spearman_rho": -0.32606095623284703,
+   "p_value": 7.348189056454085e-09
+  },
+  "vessel_fraction": {
+   "spearman_rho": 0.17342331806687195,
+   "p_value": 0.002577330980696913
+  },
+  "n_segments": {
+   "spearman_rho": 0.07520216281545027,
+   "p_value": 0.19396382316077174
+  },
+  "black_border_fraction": {
+   "spearman_rho": 0.04276790832421723,
+   "p_value": 0.4605100718931161
+  }
+ },
+ "worst_10": [
+  {
+   "image_id": "test_142",
+   "dice": 0.130992,
+   "cldice": 0.126639,
+   "sensitivity": 0.086782,
+   "precision": 0.267019
+  },
+  {
+   "image_id": "test_87",
+   "dice": 0.22937,
+   "cldice": 0.311355,
+   "sensitivity": 0.162162,
+   "precision": 0.391714
+  },
+  {
+   "image_id": "test_146",
+   "dice": 0.244895,
+   "cldice": 0.200502,
+   "sensitivity": 0.810454,
+   "precision": 0.14424
+  },
+  {
+   "image_id": "test_258",
+   "dice": 0.324704,
+   "cldice": 0.398712,
+   "sensitivity": 0.199491,
+   "precision": 0.87207
+  },
+  {
+   "image_id": "test_211",
+   "dice": 0.325148,
+   "cldice": 0.338764,
+   "sensitivity": 0.57068,
+   "precision": 0.227338
+  },
+  {
+   "image_id": "test_28",
+   "dice": 0.349935,
+   "cldice": 0.403054,
+   "sensitivity": 0.358198,
+   "precision": 0.342044
+  },
+  {
+   "image_id": "test_298",
+   "dice": 0.36656,
+   "cldice": 0.327144,
+   "sensitivity": 0.372184,
+   "precision": 0.361103
+  },
+  {
+   "image_id": "test_252",
+   "dice": 0.373624,
+   "cldice": 0.331605,
+   "sensitivity": 0.289205,
+   "precision": 0.527643
+  },
+  {
+   "image_id": "test_245",
+   "dice": 0.391621,
+   "cldice": 0.398842,
+   "sensitivity": 0.284859,
+   "precision": 0.626383
+  },
+  {
+   "image_id": "test_11",
+   "dice": 0.418654,
+   "cldice": 0.470878,
+   "sensitivity": 0.32954,
+   "precision": 0.573829
+  }
+ ]
+}

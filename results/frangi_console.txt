@@ -1,0 +1,2 @@
+tuned on 198 val images in 399 s: {'rule': 'hysteresis', 'value': 0.02643, 'min_size': 1500, 'val_mean_dice': 0.3871536260586038}
+wrote 300 test masks to data/processed/predictions/frangi/test; 0.80 s per image

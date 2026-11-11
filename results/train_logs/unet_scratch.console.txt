@@ -1,0 +1,30 @@
+unet_scratch: 995 train images, 198 val images, 124 steps per epoch, 1.96M params, device mps
+  epoch   1  loss 1.3761  val_dice   0.4 min
+  epoch   2  loss 1.0539  val_dice 0.5878  0.8 min
+  epoch   3  loss 0.7224  val_dice   1.3 min
+  epoch   4  loss 0.5292  val_dice 0.5637  1.7 min
+  epoch   5  loss 0.4514  val_dice   2.2 min
+  epoch   6  loss 0.4192  val_dice 0.6939  2.6 min
+  epoch   7  loss 0.4023  val_dice   3.1 min
+  epoch   8  loss 0.4057  val_dice 0.6913  3.6 min
+  epoch   9  loss 0.3901  val_dice   4.2 min
+  epoch  10  loss 0.3916  val_dice 0.6945  4.6 min
+  epoch  11  loss 0.3745  val_dice   5.3 min
+  epoch  12  loss 0.3639  val_dice 0.7040  5.9 min
+  epoch  13  loss 0.3653  val_dice   6.6 min
+  epoch  14  loss 0.3601  val_dice 0.7206  7.1 min
+  epoch  15  loss 0.3591  val_dice   7.8 min
+  epoch  16  loss 0.3550  val_dice 0.7250  8.5 min
+  epoch  17  loss 0.3607  val_dice   9.0 min
+  epoch  18  loss 0.3473  val_dice 0.7022  9.5 min
+  epoch  19  loss 0.3496  val_dice   10.0 min
+  epoch  20  loss 0.3411  val_dice 0.7283  10.5 min
+  epoch  21  loss 0.3419  val_dice   11.1 min
+  epoch  22  loss 0.3393  val_dice 0.7397  11.5 min
+  epoch  23  loss 0.3338  val_dice   12.1 min
+  epoch  24  loss 0.3299  val_dice 0.7387  12.5 min
+  epoch  25  loss 0.3350  val_dice   13.1 min
+  epoch  26  loss 0.3259  val_dice 0.7380  13.5 min
+  epoch  27  loss 0.3275  val_dice 0.7395  14.1 min
+  time limit of 14.0 min reached, stopping
+done: best val Dice 0.7397 at epoch 22, 14.17 min

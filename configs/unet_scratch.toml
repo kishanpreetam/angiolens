@@ -1,0 +1,25 @@
+# U-Net trained from random initialization on the ARCADE training split.
+name = "unet_scratch"
+seed = 42
+
+[data]
+source = "arcade"
+crop = 256
+augment = true
+
+[model]
+base = 16
+depth = 4
+
+[train]
+epochs = 28
+batch_size = 8
+lr = 0.001
+weight_decay = 0.0001
+warmup_steps = 200
+val_every = 2
+max_minutes = 14
+
+[loss]
+bce_weight = 1.0
+dice_weight = 1.0

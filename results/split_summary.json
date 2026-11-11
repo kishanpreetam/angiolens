@@ -1,0 +1,45 @@
+{
+ "policy": "official ARCADE split plus a duplicate and near-duplicate leakage guard",
+ "near_duplicate_threshold": 0.97,
+ "official_counts": {
+  "train": 1000,
+  "val": 200,
+  "test": 300
+ },
+ "used_counts": {
+  "train": 995,
+  "val": 198,
+  "test": 300
+ },
+ "excluded": [
+  {
+   "image_id": "train_214",
+   "reason": "exact duplicate of train_20"
+  },
+  {
+   "image_id": "train_612",
+   "reason": "exact duplicate of train_501"
+  },
+  {
+   "image_id": "train_793",
+   "reason": "exact duplicate of train_168"
+  },
+  {
+   "image_id": "train_887",
+   "reason": "exact duplicate of train_478"
+  },
+  {
+   "image_id": "train_972",
+   "reason": "exact duplicate of train_337"
+  },
+  {
+   "image_id": "val_116",
+   "reason": "near duplicate of train image train_720"
+  },
+  {
+   "image_id": "val_151",
+   "reason": "near duplicate of train image train_720"
+  }
+ ],
+ "patient_ids_available": false
+}

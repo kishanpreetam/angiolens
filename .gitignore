@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+
+# Data and model weights never go in the repo
+/data/
+/checkpoints/
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+
+# Personal resume drafting notes stay local
+results/resume_lines.md

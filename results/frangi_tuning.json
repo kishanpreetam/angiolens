@@ -1,0 +1,1970 @@
+{
+ "method": "Frangi vesselness (skimage) plus threshold",
+ "sigmas": [
+  1.0,
+  1.5,
+  2.0,
+  3.0,
+  4.0,
+  5.0,
+  6.0
+ ],
+ "black_ridges": true,
+ "selected": {
+  "rule": "hysteresis",
+  "value": 0.02643,
+  "min_size": 1500,
+  "val_mean_dice": 0.3871536260586038
+ },
+ "selection": "highest mean Dice on the validation split; test split never used for tuning",
+ "n_val": 198,
+ "n_test": 300,
+ "seconds_per_test_image_cpu": 0.801,
+ "grid": [
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 0,
+   "val_mean_dice": 0.1169647107493697
+  },
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 50,
+   "val_mean_dice": 0.1445334415115823
+  },
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 150,
+   "val_mean_dice": 0.16813836791999437
+  },
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 300,
+   "val_mean_dice": 0.18669152395351407
+  },
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 600,
+   "val_mean_dice": 0.20866894742941344
+  },
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 1000,
+   "val_mean_dice": 0.2252087241404434
+  },
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 1500,
+   "val_mean_dice": 0.23821258023288394
+  },
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 2500,
+   "val_mean_dice": 0.24992546217140774
+  },
+  {
+   "rule": "global",
+   "value": 0.002,
+   "min_size": 4000,
+   "val_mean_dice": 0.2668676870216832
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 0,
+   "val_mean_dice": 0.11993972135242703
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 50,
+   "val_mean_dice": 0.15935259363609505
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 150,
+   "val_mean_dice": 0.19482414612827453
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 300,
+   "val_mean_dice": 0.22283856581807443
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 600,
+   "val_mean_dice": 0.25452153780382536
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 1000,
+   "val_mean_dice": 0.27660358300046106
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 1500,
+   "val_mean_dice": 0.29106296099000667
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 2500,
+   "val_mean_dice": 0.31066365233109267
+  },
+  {
+   "rule": "global",
+   "value": 0.00279,
+   "min_size": 4000,
+   "val_mean_dice": 0.3312255571699345
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 0,
+   "val_mean_dice": 0.12367880544391167
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 50,
+   "val_mean_dice": 0.18039743036057296
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 150,
+   "val_mean_dice": 0.23078714032195824
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 300,
+   "val_mean_dice": 0.26875571262654285
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 600,
+   "val_mean_dice": 0.30753913815674955
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 1000,
+   "val_mean_dice": 0.3327576337448101
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 1500,
+   "val_mean_dice": 0.348053114802704
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 2500,
+   "val_mean_dice": 0.3668727903960489
+  },
+  {
+   "rule": "global",
+   "value": 0.0039,
+   "min_size": 4000,
+   "val_mean_dice": 0.37626090565241455
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 0,
+   "val_mean_dice": 0.12841037953255494
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 50,
+   "val_mean_dice": 0.207829980746591
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 150,
+   "val_mean_dice": 0.2731005563333926
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 300,
+   "val_mean_dice": 0.31702479482576124
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 600,
+   "val_mean_dice": 0.3551786158814964
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 1000,
+   "val_mean_dice": 0.37404005556294895
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 1500,
+   "val_mean_dice": 0.38615332415432624
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 2500,
+   "val_mean_dice": 0.38695006570266216
+  },
+  {
+   "rule": "global",
+   "value": 0.00545,
+   "min_size": 4000,
+   "val_mean_dice": 0.3816632799165363
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 0,
+   "val_mean_dice": 0.13444443074439524
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 50,
+   "val_mean_dice": 0.24076630069480182
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 150,
+   "val_mean_dice": 0.3141129908621858
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 300,
+   "val_mean_dice": 0.35467504319747967
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 600,
+   "val_mean_dice": 0.3764746662906458
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 1000,
+   "val_mean_dice": 0.38001109058934185
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 1500,
+   "val_mean_dice": 0.381232133362668
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 2500,
+   "val_mean_dice": 0.36949406669216295
+  },
+  {
+   "rule": "global",
+   "value": 0.00761,
+   "min_size": 4000,
+   "val_mean_dice": 0.33412441575166185
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 0,
+   "val_mean_dice": 0.14196438082817747
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 50,
+   "val_mean_dice": 0.2714212026840909
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 150,
+   "val_mean_dice": 0.3329432213741329
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 300,
+   "val_mean_dice": 0.356906036267385
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 600,
+   "val_mean_dice": 0.35997392120791133
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 1000,
+   "val_mean_dice": 0.34811385115144206
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 1500,
+   "val_mean_dice": 0.329233025625802
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 2500,
+   "val_mean_dice": 0.29716436917315997
+  },
+  {
+   "rule": "global",
+   "value": 0.01063,
+   "min_size": 4000,
+   "val_mean_dice": 0.25516179713775666
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 0,
+   "val_mean_dice": 0.150937717369357
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 50,
+   "val_mean_dice": 0.28965032601400037
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 150,
+   "val_mean_dice": 0.32589932784373116
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 300,
+   "val_mean_dice": 0.3246969118258779
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 600,
+   "val_mean_dice": 0.30304919822734766
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 1000,
+   "val_mean_dice": 0.2732231108962397
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 1500,
+   "val_mean_dice": 0.2427497737355276
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 2500,
+   "val_mean_dice": 0.2014918666820683
+  },
+  {
+   "rule": "global",
+   "value": 0.01484,
+   "min_size": 4000,
+   "val_mean_dice": 0.1440526486233226
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 0,
+   "val_mean_dice": 0.16103124793879967
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 50,
+   "val_mean_dice": 0.2848138951498391
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 150,
+   "val_mean_dice": 0.2823091329119855
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 300,
+   "val_mean_dice": 0.25501754915017755
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 600,
+   "val_mean_dice": 0.2167755820623817
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 1000,
+   "val_mean_dice": 0.17290884610732815
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 1500,
+   "val_mean_dice": 0.14071250725344842
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 2500,
+   "val_mean_dice": 0.09927530928510354
+  },
+  {
+   "rule": "global",
+   "value": 0.02073,
+   "min_size": 4000,
+   "val_mean_dice": 0.06306774790784102
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 0,
+   "val_mean_dice": 0.17038368179280666
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 50,
+   "val_mean_dice": 0.25213958137261633
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 150,
+   "val_mean_dice": 0.21592313354407008
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 300,
+   "val_mean_dice": 0.17239819991373004
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 600,
+   "val_mean_dice": 0.125116732422401
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 1000,
+   "val_mean_dice": 0.08691313197169666
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 1500,
+   "val_mean_dice": 0.0586983821762615
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 2500,
+   "val_mean_dice": 0.027506515894753426
+  },
+  {
+   "rule": "global",
+   "value": 0.02895,
+   "min_size": 4000,
+   "val_mean_dice": 0.014589388980380865
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 0,
+   "val_mean_dice": 0.1755976055605449
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 50,
+   "val_mean_dice": 0.20143250300404508
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 150,
+   "val_mean_dice": 0.1407677810421547
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 300,
+   "val_mean_dice": 0.09074830259760817
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 600,
+   "val_mean_dice": 0.055960581268756505
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 1000,
+   "val_mean_dice": 0.026521350298710798
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 1500,
+   "val_mean_dice": 0.017070988196990926
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 2500,
+   "val_mean_dice": 0.010303689990320485
+  },
+  {
+   "rule": "global",
+   "value": 0.04043,
+   "min_size": 4000,
+   "val_mean_dice": 0.007445414076053703
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 0,
+   "val_mean_dice": 0.1725642126351182
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 50,
+   "val_mean_dice": 0.1422310619919657
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 150,
+   "val_mean_dice": 0.07784971167501477
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 300,
+   "val_mean_dice": 0.040290322313463155
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 600,
+   "val_mean_dice": 0.018448599884408622
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 1000,
+   "val_mean_dice": 0.007556277988231921
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 1500,
+   "val_mean_dice": 0.006278349810199163
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.05646,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 0,
+   "val_mean_dice": 0.15731300421765862
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 50,
+   "val_mean_dice": 0.0876040589747675
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 150,
+   "val_mean_dice": 0.03503134220192889
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 300,
+   "val_mean_dice": 0.014563359780919856
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 600,
+   "val_mean_dice": 0.004649011758699099
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 1000,
+   "val_mean_dice": 0.0024527315690379458
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 1500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.07886,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 0,
+   "val_mean_dice": 0.12931081646437562
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 50,
+   "val_mean_dice": 0.04678630463577952
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 150,
+   "val_mean_dice": 0.014162407148855864
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 300,
+   "val_mean_dice": 0.00433025104644374
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 600,
+   "val_mean_dice": 0.0009681037282780235
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 1000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 1500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.11013,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 0,
+   "val_mean_dice": 0.09336963642977679
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 50,
+   "val_mean_dice": 0.021685583721110412
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 150,
+   "val_mean_dice": 0.004332976896795325
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 300,
+   "val_mean_dice": 0.0008215500092814006
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 600,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 1000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 1500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.15381,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 0,
+   "val_mean_dice": 0.05816949056611043
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 50,
+   "val_mean_dice": 0.008063084745029874
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 150,
+   "val_mean_dice": 0.0007402015523467064
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 300,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 600,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 1000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 1500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.21481,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 0,
+   "val_mean_dice": 0.030505480302082163
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 50,
+   "val_mean_dice": 0.0022059307026374474
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 150,
+   "val_mean_dice": 8.683639234260904e-05
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 300,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 600,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 1000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 1500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "global",
+   "value": 0.3,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 0,
+   "val_mean_dice": 0.15433389604435874
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 50,
+   "val_mean_dice": 0.05403964679675686
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 150,
+   "val_mean_dice": 0.015565372682440919
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 300,
+   "val_mean_dice": 0.0038391924606598613
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 600,
+   "val_mean_dice": 6.349803437413846e-05
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 1000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 1500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.02,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 0,
+   "val_mean_dice": 0.1769094148962389
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 50,
+   "val_mean_dice": 0.091459327664663
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 150,
+   "val_mean_dice": 0.03665598690419539
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 300,
+   "val_mean_dice": 0.012180145382998678
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 600,
+   "val_mean_dice": 0.0034371076176637656
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 1000,
+   "val_mean_dice": 0.00013529921732772864
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 1500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.03,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 0,
+   "val_mean_dice": 0.18638731201234626
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 50,
+   "val_mean_dice": 0.12078805823192885
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 150,
+   "val_mean_dice": 0.05784698823204355
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 300,
+   "val_mean_dice": 0.02872045996160191
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 600,
+   "val_mean_dice": 0.010996595863402975
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 1000,
+   "val_mean_dice": 0.0038275361319861294
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 1500,
+   "val_mean_dice": 0.00012068549360366883
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.04,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 0,
+   "val_mean_dice": 0.18957837436817535
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 50,
+   "val_mean_dice": 0.1467321920451076
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 150,
+   "val_mean_dice": 0.08257933559985618
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 300,
+   "val_mean_dice": 0.04458307136235522
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 600,
+   "val_mean_dice": 0.01955014248175525
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 1000,
+   "val_mean_dice": 0.009255686422738857
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 1500,
+   "val_mean_dice": 0.004386476424894272
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.05,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 0,
+   "val_mean_dice": 0.1892732169129085
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 50,
+   "val_mean_dice": 0.16965430077295832
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 150,
+   "val_mean_dice": 0.1035331390140669
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 300,
+   "val_mean_dice": 0.059943794979287736
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 600,
+   "val_mean_dice": 0.030514347843454907
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 1000,
+   "val_mean_dice": 0.014846862143233339
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 1500,
+   "val_mean_dice": 0.009896134657191392
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 2500,
+   "val_mean_dice": 0.0028475759967184883
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.06,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 0,
+   "val_mean_dice": 0.18441194605426342
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 50,
+   "val_mean_dice": 0.20684147870045386
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 150,
+   "val_mean_dice": 0.14647064800761886
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 300,
+   "val_mean_dice": 0.1005947798892452
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 600,
+   "val_mean_dice": 0.05968408548207668
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 1000,
+   "val_mean_dice": 0.03259560211394366
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 1500,
+   "val_mean_dice": 0.022134874814976876
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 2500,
+   "val_mean_dice": 0.011294233201630357
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.08,
+   "min_size": 4000,
+   "val_mean_dice": 0.0010654006577128301
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 0,
+   "val_mean_dice": 0.17771906363872256
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 50,
+   "val_mean_dice": 0.2381319504436705
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 150,
+   "val_mean_dice": 0.18405368347198486
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 300,
+   "val_mean_dice": 0.1393898217658161
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 600,
+   "val_mean_dice": 0.09340599948829967
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 1000,
+   "val_mean_dice": 0.060480284110994965
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 1500,
+   "val_mean_dice": 0.041249137927811354
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 2500,
+   "val_mean_dice": 0.025380462497347253
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.1,
+   "min_size": 4000,
+   "val_mean_dice": 0.012341087564435515
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 0,
+   "val_mean_dice": 0.1708733554218095
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 50,
+   "val_mean_dice": 0.2637495953263481
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 150,
+   "val_mean_dice": 0.21963280082790027
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 300,
+   "val_mean_dice": 0.17813358705948668
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 600,
+   "val_mean_dice": 0.12762980849523547
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 1000,
+   "val_mean_dice": 0.09126360349617951
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 1500,
+   "val_mean_dice": 0.06581955684721567
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 2500,
+   "val_mean_dice": 0.04258249956257572
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.12,
+   "min_size": 4000,
+   "val_mean_dice": 0.026381025369755208
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 0,
+   "val_mean_dice": 0.16131912368228882
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 50,
+   "val_mean_dice": 0.2910035067614621
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 150,
+   "val_mean_dice": 0.2656492254052299
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 300,
+   "val_mean_dice": 0.23005951476189324
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 600,
+   "val_mean_dice": 0.18837581743642967
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 1000,
+   "val_mean_dice": 0.14518019558643583
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 1500,
+   "val_mean_dice": 0.11109163615639567
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 2500,
+   "val_mean_dice": 0.07134928516279136
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.15,
+   "min_size": 4000,
+   "val_mean_dice": 0.0413121805432513
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 0,
+   "val_mean_dice": 0.14807846219687776
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 50,
+   "val_mean_dice": 0.31210896074704375
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 150,
+   "val_mean_dice": 0.320598471823689
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 300,
+   "val_mean_dice": 0.3047887349252724
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 600,
+   "val_mean_dice": 0.26939752460945815
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 1000,
+   "val_mean_dice": 0.2381383013216705
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 1500,
+   "val_mean_dice": 0.21082069562923703
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 2500,
+   "val_mean_dice": 0.17276777181704217
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.2,
+   "min_size": 4000,
+   "val_mean_dice": 0.1221339139947346
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 0,
+   "val_mean_dice": 0.13780584537093002
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 50,
+   "val_mean_dice": 0.30135025646781605
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 150,
+   "val_mean_dice": 0.353403769091449
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 300,
+   "val_mean_dice": 0.3539813001719819
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 600,
+   "val_mean_dice": 0.3379700794766922
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 1000,
+   "val_mean_dice": 0.31445327972949266
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 1500,
+   "val_mean_dice": 0.29788714477625805
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 2500,
+   "val_mean_dice": 0.2670020775581624
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.25,
+   "min_size": 4000,
+   "val_mean_dice": 0.2166274809485432
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 0,
+   "val_mean_dice": 0.12981407948499116
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 50,
+   "val_mean_dice": 0.25973138751226965
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 150,
+   "val_mean_dice": 0.34822361478355723
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 300,
+   "val_mean_dice": 0.37511552435342055
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 600,
+   "val_mean_dice": 0.381035299891239
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 1000,
+   "val_mean_dice": 0.37212641845758204
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 1500,
+   "val_mean_dice": 0.35799232318454766
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 2500,
+   "val_mean_dice": 0.3354989035393939
+  },
+  {
+   "rule": "top_fraction",
+   "value": 0.3,
+   "min_size": 4000,
+   "val_mean_dice": 0.2998669714452551
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 0,
+   "val_mean_dice": 0.12327196359716529
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 50,
+   "val_mean_dice": 0.15384083776203433
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 150,
+   "val_mean_dice": 0.1849795611202226
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 300,
+   "val_mean_dice": 0.2094090670821711
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 600,
+   "val_mean_dice": 0.23750155001966713
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 1000,
+   "val_mean_dice": 0.2588117062981147
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 1500,
+   "val_mean_dice": 0.2718686206803268
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 2500,
+   "val_mean_dice": 0.28894239939987293
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01,
+   "min_size": 4000,
+   "val_mean_dice": 0.30983365706207927
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 0,
+   "val_mean_dice": 0.13357811087610183
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 50,
+   "val_mean_dice": 0.18352796372086594
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 150,
+   "val_mean_dice": 0.2359767308892706
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 300,
+   "val_mean_dice": 0.2745710444446515
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 600,
+   "val_mean_dice": 0.31358079458954935
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 1000,
+   "val_mean_dice": 0.3393212163592738
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 1500,
+   "val_mean_dice": 0.3551334665065885
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 2500,
+   "val_mean_dice": 0.3728310679589905
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.01626,
+   "min_size": 4000,
+   "val_mean_dice": 0.38078454774953213
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 0,
+   "val_mean_dice": 0.15077247911963512
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 50,
+   "val_mean_dice": 0.22621858764047195
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 150,
+   "val_mean_dice": 0.2979597560812247
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 300,
+   "val_mean_dice": 0.3415948889875699
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 600,
+   "val_mean_dice": 0.373069605408308
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 1000,
+   "val_mean_dice": 0.3845160945704144
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 1500,
+   "val_mean_dice": 0.3871536260586038
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 2500,
+   "val_mean_dice": 0.38256917155280673
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.02643,
+   "min_size": 4000,
+   "val_mean_dice": 0.36172068235219984
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 0,
+   "val_mean_dice": 0.17899751462492283
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 50,
+   "val_mean_dice": 0.272130070529971
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 150,
+   "val_mean_dice": 0.3335526783537381
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 300,
+   "val_mean_dice": 0.35640534387118405
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 600,
+   "val_mean_dice": 0.3572995480629451
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 1000,
+   "val_mean_dice": 0.34638833484877013
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 1500,
+   "val_mean_dice": 0.32832643042752324
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 2500,
+   "val_mean_dice": 0.29653390651526185
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.04296,
+   "min_size": 4000,
+   "val_mean_dice": 0.2546118685764535
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 0,
+   "val_mean_dice": 0.2121937746493384
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 50,
+   "val_mean_dice": 0.29065668108284937
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 150,
+   "val_mean_dice": 0.308833679406091
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 300,
+   "val_mean_dice": 0.2933948910180983
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 600,
+   "val_mean_dice": 0.259851668311439
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 1000,
+   "val_mean_dice": 0.2238392871876039
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 1500,
+   "val_mean_dice": 0.19377639969786095
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 2500,
+   "val_mean_dice": 0.14519458479910038
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.06983,
+   "min_size": 4000,
+   "val_mean_dice": 0.09448473716523373
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 0,
+   "val_mean_dice": 0.2248208273260553
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 50,
+   "val_mean_dice": 0.25330170101239086
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 150,
+   "val_mean_dice": 0.21992847346436775
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 300,
+   "val_mean_dice": 0.1785235418453515
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 600,
+   "val_mean_dice": 0.12844055798903514
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 1000,
+   "val_mean_dice": 0.09263282270645977
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 1500,
+   "val_mean_dice": 0.06066532338735948
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 2500,
+   "val_mean_dice": 0.029697408600880736
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.11352,
+   "min_size": 4000,
+   "val_mean_dice": 0.014577393568177194
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 0,
+   "val_mean_dice": 0.1901819034432839
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 50,
+   "val_mean_dice": 0.1738537015093183
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 150,
+   "val_mean_dice": 0.11495458142535332
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 300,
+   "val_mean_dice": 0.06848111142670057
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 600,
+   "val_mean_dice": 0.03359492991147726
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 1000,
+   "val_mean_dice": 0.016225681721332007
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 1500,
+   "val_mean_dice": 0.008685404423247143
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 2500,
+   "val_mean_dice": 0.008407328949890403
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.18455,
+   "min_size": 4000,
+   "val_mean_dice": 0.0018348089953028226
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 0,
+   "val_mean_dice": 0.11936000817842461
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 50,
+   "val_mean_dice": 0.09185054275821779
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 150,
+   "val_mean_dice": 0.03897346397580788
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 300,
+   "val_mean_dice": 0.01615225953414357
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 600,
+   "val_mean_dice": 0.005426778651701933
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 1000,
+   "val_mean_dice": 0.002782020297109429
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 1500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 2500,
+   "val_mean_dice": 0.0
+  },
+  {
+   "rule": "hysteresis",
+   "value": 0.3,
+   "min_size": 4000,
+   "val_mean_dice": 0.0
+  }
+ ],
+ "at_grid_edge": false
+}

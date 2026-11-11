@@ -1,0 +1,85 @@
+{
+ "run": "unet_synth_only",
+ "checkpoint": "best.pt",
+ "device": "mps",
+ "n_test": 300,
+ "threshold_source": "synth",
+ "selection": "threshold with the highest mean validation Dice; test never used",
+ "n_val": 100,
+ "grid": [
+  {
+   "threshold": 0.1,
+   "val_mean_dice": 0.8104958349591093
+  },
+  {
+   "threshold": 0.15,
+   "val_mean_dice": 0.8202598652880053
+  },
+  {
+   "threshold": 0.2,
+   "val_mean_dice": 0.8257672513958255
+  },
+  {
+   "threshold": 0.25,
+   "val_mean_dice": 0.8281953371294282
+  },
+  {
+   "threshold": 0.3,
+   "val_mean_dice": 0.8296758207538312
+  },
+  {
+   "threshold": 0.35,
+   "val_mean_dice": 0.8309884126408755
+  },
+  {
+   "threshold": 0.4,
+   "val_mean_dice": 0.831461545850799
+  },
+  {
+   "threshold": 0.45,
+   "val_mean_dice": 0.8316789584432152
+  },
+  {
+   "threshold": 0.5,
+   "val_mean_dice": 0.8315751201806293
+  },
+  {
+   "threshold": 0.55,
+   "val_mean_dice": 0.831143790923187
+  },
+  {
+   "threshold": 0.6,
+   "val_mean_dice": 0.8303522194976085
+  },
+  {
+   "threshold": 0.65,
+   "val_mean_dice": 0.8288042035742074
+  },
+  {
+   "threshold": 0.7,
+   "val_mean_dice": 0.8261603107487033
+  },
+  {
+   "threshold": 0.75,
+   "val_mean_dice": 0.8230203726072901
+  },
+  {
+   "threshold": 0.8,
+   "val_mean_dice": 0.8181841656699675
+  },
+  {
+   "threshold": 0.85,
+   "val_mean_dice": 0.8101709905878419
+  },
+  {
+   "threshold": 0.9,
+   "val_mean_dice": 0.7962443330940515
+  }
+ ],
+ "selected": {
+  "threshold": 0.45,
+  "val_mean_dice": 0.8316789584432152
+ },
+ "val_mean_dice_at_0.5": 0.8315751201806293,
+ "seconds": 32.5
+}

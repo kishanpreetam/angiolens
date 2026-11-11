@@ -1,0 +1,10 @@
+# Direct dependencies, pinned to the versions used for every result in results/.
+# requirements-lock.txt pins the full environment (uv pip freeze).
+numpy==2.5.4
+scipy==1.18.1
+scikit-image==0.26.0
+pillow==13.0.0
+matplotlib==3.11.2
+torch==2.15.0
+napari[all]==0.10.0
+pytest==9.2.0

@@ -1,0 +1,52 @@
+{
+ "name": "unet_scratch",
+ "config": {
+  "name": "unet_scratch",
+  "seed": 42,
+  "data": {
+   "source": "arcade",
+   "crop": 256,
+   "augment": true
+  },
+  "model": {
+   "base": 16,
+   "depth": 4
+  },
+  "train": {
+   "epochs": 28,
+   "batch_size": 8,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "warmup_steps": 200,
+   "val_every": 2,
+   "max_minutes": 14
+  },
+  "loss": {
+   "bce_weight": 1.0,
+   "dice_weight": 1.0
+  }
+ },
+ "config_path": "configs/unet_scratch.toml",
+ "n_train_images": 995,
+ "n_val_images": 198,
+ "train_ids_sha_note": "ids listed in results/splits.csv; low-data runs list their ids below",
+ "train_ids": null,
+ "params": 1963809,
+ "epochs_run": 27,
+ "steps": 3348,
+ "stopped_by_time_limit": true,
+ "best": {
+  "val_dice": 0.7396946425991829,
+  "epoch": 22,
+  "step": 2728
+ },
+ "minutes": 14.17,
+ "environment": {
+  "python": "3.12.13",
+  "torch": "2.15.0",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "device": "mps"
+ }
+}

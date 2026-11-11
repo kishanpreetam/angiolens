@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "angiolens"
+version = "0.1.0"
+description = "Coronary vessel segmentation on X-ray angiograms: data curation, a Frangi baseline, a small PyTorch U-Net, validation with confidence intervals, and a napari review tool."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12,<3.13"
+authors = [{ name = "Kishan Preetam Kommana" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["angiolens*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = [
+    "gui: builds a hidden napari viewer (needs a macOS or desktop session)",
+]

@@ -1,0 +1,26 @@
+# Same recipe as unet_scratch.toml, but initialized from the synthetic model.
+name = "unet_synth_finetune"
+seed = 42
+
+[data]
+source = "arcade"
+crop = 256
+augment = true
+
+[model]
+base = 16
+depth = 4
+
+[train]
+epochs = 28
+batch_size = 8
+lr = 0.001
+weight_decay = 0.0001
+warmup_steps = 200
+val_every = 2
+max_minutes = 14
+init_from = "checkpoints/unet_synth_only/best.pt"
+
+[loss]
+bce_weight = 1.0
+dice_weight = 1.0

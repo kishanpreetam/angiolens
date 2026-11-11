@@ -1,0 +1,48 @@
+{
+ "name": "unet_synth_only",
+ "config": {
+  "name": "unet_synth_only",
+  "seed": 42,
+  "data": {
+   "source": "synth",
+   "crop": 256,
+   "augment": true
+  },
+  "model": {
+   "base": 16,
+   "depth": 4
+  },
+  "train": {
+   "epochs": 8,
+   "batch_size": 8,
+   "lr": 0.001,
+   "weight_decay": 0.0001,
+   "warmup_steps": 100,
+   "val_every": 1,
+   "max_minutes": 6
+  }
+ },
+ "config_path": "configs/unet_synth_pretrain.toml",
+ "n_train_images": 1200,
+ "n_val_images": 100,
+ "train_ids_sha_note": "ids listed in results/splits.csv; low-data runs list their ids below",
+ "train_ids": null,
+ "params": 1963809,
+ "epochs_run": 8,
+ "steps": 1200,
+ "stopped_by_time_limit": false,
+ "best": {
+  "val_dice": 0.831575119793415,
+  "epoch": 8,
+  "step": 1200
+ },
+ "minutes": 4.96,
+ "environment": {
+  "python": "3.12.13",
+  "torch": "2.15.0",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "device": "mps"
+ }
+}

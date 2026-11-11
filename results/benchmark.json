@@ -1,0 +1,28 @@
+{
+ "model": "unet_scratch",
+ "input": "1 x 1 x 512 x 512 float32",
+ "unet": [
+  {
+   "device": "mps",
+   "median_ms": 26.84979200057569,
+   "p90_ms": 27.987162501449347,
+   "runs": 50,
+   "warmup": 10
+  },
+  {
+   "device": "cpu",
+   "median_ms": 186.97010399955616,
+   "p90_ms": 224.24921189995075,
+   "runs": 50,
+   "warmup": 10
+  }
+ ],
+ "frangi_cpu_median_s": 0.26380054150104115,
+ "machine": {
+  "cpu": "Apple M3",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "torch": "2.15.0",
+  "cpu_threads": 4
+ },
+ "note": "measured while other programs were running; indicative only"
+}

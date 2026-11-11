@@ -1,0 +1,33 @@
+{
+ "unet_synth_only": {
+  "spearman_rho_uncertainty_vs_dice": -0.2752088356537295,
+  "p_value": 1.2941366090958555e-06,
+  "definition": "mean of 4p(1-p) over pixels with p >= 0.1 or within 3 px of p >= 0.5"
+ },
+ "unet_scratch": {
+  "spearman_rho_uncertainty_vs_dice": -0.6049213880154224,
+  "p_value": 2.5046699201184523e-31,
+  "definition": "mean of 4p(1-p) over pixels with p >= 0.1 or within 3 px of p >= 0.5",
+  "review_queue": {
+   "k": 25,
+   "mean_dice_top_k_uncertain": 0.51480896,
+   "mean_dice_all": 0.6853107666666667,
+   "share_of_10_worst_in_top_k": 0.6
+  }
+ },
+ "unet_synth_finetune": {
+  "spearman_rho_uncertainty_vs_dice": -0.5601675574173046,
+  "p_value": 3.510395818002148e-26,
+  "definition": "mean of 4p(1-p) over pixels with p >= 0.1 or within 3 px of p >= 0.5"
+ },
+ "unet_scratch_n100": {
+  "spearman_rho_uncertainty_vs_dice": -0.5527936977077522,
+  "p_value": 2.090759120395827e-25,
+  "definition": "mean of 4p(1-p) over pixels with p >= 0.1 or within 3 px of p >= 0.5"
+ },
+ "unet_synth_finetune_n100": {
+  "spearman_rho_uncertainty_vs_dice": -0.5250071667462971,
+  "p_value": 1.1870241377392077e-22,
+  "definition": "mean of 4p(1-p) over pixels with p >= 0.1 or within 3 px of p >= 0.5"
+ }
+}

@@ -1,0 +1,21 @@
+# Tiny run that checks the training pipeline end to end in about a minute.
+name = "smoke"
+seed = 0
+
+[data]
+source = "arcade"
+crop = 128
+augment = true
+n_train = 16
+
+[model]
+base = 8
+depth = 3
+
+[train]
+epochs = 2
+batch_size = 4
+lr = 0.001
+warmup_steps = 2
+val_every = 1
+max_minutes = 3
